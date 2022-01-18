@@ -81,10 +81,20 @@
 
 .col-md-3 {
   background: chartreuse;
-  height: 15rem;
+  height: 20rem;
 }
 
 .imgs {
   background-color: #fff;
   height: 15rem;
+  width: 100%;
+}
+
+#small {
+  display: flex;
+}
+
+.crispy-crust {
+  position: absolute;
+  text-align: center;
 }
