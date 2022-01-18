@@ -6,7 +6,7 @@
 
 .navbar {
   height: 80px;
-  background-color: rgb(229, 243, 101);
+  background-color: rgb(20, 20, 17);
   display: flex;
 }
 
@@ -35,10 +35,12 @@
 .nav ul li a {
   text-decoration: none;
   display: inline-block;
+  color: #fff;
 }
 
 .checkout {
   margin-right: 3rem;
+  color: #fff;
 }
 
 #checkout-icon {
@@ -63,8 +65,28 @@
   text-transform: uppercase;
 }
 
+#pizzas-available {
+  background: linear-gradient(to right, #ee0979, #ff6a00);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#pizzas-available p {
+  text-align: center;
+  padding: 1rem;
+  font-size: 20px;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  font-weight: 450;
+}
+
 .col-md-3 {
   background: chartreuse;
-  margin: 1.5rem;
+  height: 15rem;
+}
+
+.imgs {
+  background-color: #fff;
   height: 15rem;
 }
