@@ -66,10 +66,7 @@
 }
 
 #pizzas-available {
-  background: linear-gradient(to right, #ee0979, #ff6a00);
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
+  background-color: rgb(20, 20, 17);
 }
 
 #pizzas-available p {
@@ -79,6 +76,7 @@
   font-family: sans-serif;
   text-transform: uppercase;
   font-weight: 450;
+  color: #fff;
 }
 
 .col-md-3 {
