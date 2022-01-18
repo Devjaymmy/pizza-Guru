@@ -95,6 +95,15 @@
 }
 
 .crispy-crust {
-  position: absolute;
   text-align: center;
+  background-color: #fff;
+  height: 15rem;
+  width: 22%;
+  position: absolute;
+  margin-left: 8px;
+  opacity: 0.5;
+}
+
+.title {
+  margin: 30%;
 }
