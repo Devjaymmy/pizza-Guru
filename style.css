@@ -102,8 +102,13 @@
   position: absolute;
   margin-left: 8px;
   opacity: 0.5;
+  display: none;
 }
 
 .title {
-  margin: 30%;
+  margin-top: 30%;
+  color: rgb(199, 37, 91);
+  font-size: 20px;
+  text-transform: uppercase;
+  opacity: 1;
 }
