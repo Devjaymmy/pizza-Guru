@@ -50,3 +50,21 @@
   height: 4px;
   background: #ee0979;
 }
+
+#about {
+  display: flex;
+}
+
+.about {
+  position: absolute;
+  color: #fff;
+  left: 45%;
+  top: 10rem;
+  text-transform: uppercase;
+}
+
+.col-md-3 {
+  background: chartreuse;
+  margin: 1.5rem;
+  height: 15rem;
+}
