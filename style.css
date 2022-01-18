@@ -150,3 +150,16 @@
   text-transform: uppercase;
   opacity: 1;
 }
+
+.orderNow {
+  position: absolute;
+  margin-top: 17rem;
+  margin-left: 7%;
+  width: 10rem;
+  background: #fff;
+}
+
+.orderNow h4 {
+  margin-top: 5px;
+  margin-left: 10px;
+}
