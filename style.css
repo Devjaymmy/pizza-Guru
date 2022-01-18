@@ -182,3 +182,18 @@
 #orderForms {
   height: 30rem;
 }
+
+#contact-us {
+  background-color: rgb(20, 20, 17);
+  margin-top: 2rem;
+}
+
+#contact-us p {
+  text-align: center;
+  padding: 1rem;
+  font-size: 20px;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  font-weight: 450;
+  color: #fff;
+}
