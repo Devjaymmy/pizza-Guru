@@ -103,13 +103,59 @@
       <p>order some pizza</p>
     </div>
     <div class="container-fluid" id="orderForms">
-      <label for="crust-types">select the type of pizza crust:</label>
-      <select id="cru-types" name="cru-types">
-        <option value="crispy-crust">crispy-crust</option>
-        <option value="stuffed-crust">stuffed-crust</option>
-        <option value="gluttenFree-crust">gluttenFree-crust</option>
-        <option value="cracker-crust">cracker-crust</option>
-      </select>
+      <div class="row">
+        <div class="col-md-4">
+          <form action="">
+            <label for="select">select the type of pizza crust</label>
+            <select id="cru-types" name="cru-types">
+              <option value="crispy-crust">crispy-crust</option>
+              <option value="stuffed-crust">stuffed-crust</option>
+              <option value="gluttenFree-crust">gluttenFree-crust</option>
+              <option value="cracker-crust">cracker-crust</option>
+            </select>
+            <label for="select">select the pizza size</label>
+            <select name="pizzaSizes" id="pizzaSizes">
+              <option value="small">small-500ksh</option>
+              <option value="medium">medium-1000ksh</option>
+              <option value="large">large-1500ksh</option>
+            </select>
+            <br /><br />
+            <label for="select">select the topping you want</label><br />
+            <input
+              type="radio"
+              id="Pepperoni"
+              name="Pepperoni"
+              value="Pepperoni topping"
+            />
+            <label for="toppings">Pepperoni topping</label> <br />
+            <input
+              type="radio"
+              id="Mushrooms"
+              name="Mushrooms"
+              value="Mushrooms topping"
+            />
+            <label for="toppings">Mushrooms topping</label> <br />
+            <input
+              type="radio"
+              id="onions"
+              name="onions"
+              value="onions topping"
+            />
+            <label for="toppings">onions topping</label> <br />
+            <input
+              type="radio"
+              id="Sausage"
+              name="Sausage"
+              value="Sausage topping"
+            />
+            <label for="toppings">Sausage topping</label> <br />
+            <input type="radio" id="Bacon" name="Bacon" value="Bacon topping" />
+            <label for="toppings">Bacon topping</label> <br />
+          </form>
+        </div>
+        <div class="col-md-4" id="output1"></div>
+        <div class="col-md-4" id="output2"></div>
+      </div>
     </div>
     <div class="container-fluid" id="line"></div>
     <div class="container-fluid" id="contact-us">
