@@ -221,3 +221,10 @@
 #formCart {
   margin: 3rem;
 }
+
+#cart {
+  margin: 3rem 2rem;
+  background: #ee0979;
+  width: 10rem;
+  height: 2rem;
+}
