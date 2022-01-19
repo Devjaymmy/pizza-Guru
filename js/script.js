@@ -13,3 +13,9 @@ $(document).ready(function () {
   });
   Event.preventDefault();
 });
+
+$(document).ready(function () {
+  $("button").click(function summary(crust, size, toppings) {
+    event.preventDefault();
+  });
+});
