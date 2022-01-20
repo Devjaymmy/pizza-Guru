@@ -10,12 +10,25 @@ $(document).ready(function () {
   });
   $("#img4").hover(function () {
     $(".cracker-crust").toggle();
+    event.preventDefault();
   });
-  Event.preventDefault();
 });
 
 $(document).ready(function () {
-  $("button").click(function summary(crust, size, toppings) {
+  $("button").click(function () {
     event.preventDefault();
+    var cruTypes = $("#cru-types option:selected").val();
+    var pizzaSizes = $("#pizzaSizes option:selected").val();
+    var toppings = $("#Mushrooms").is(":checked");
+    $("table tbody").append(
+      "<tr><td>" +
+        cruTypes +
+        "</td><td>" +
+        pizzaSizes +
+        "</td><td>" +
+        toppings +
+        "</td></tr>"
+    );
+    $(".test").append(cruTypes);
   });
 });
