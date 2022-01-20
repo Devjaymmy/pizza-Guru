@@ -30,7 +30,6 @@ $(document).ready(function () {
         "</td></tr>"
     );
     $(".test").append(cruTypes);
-    $("#formCart").toggle(".is-hidden");
     $("#checkoutButton").show();
     $("#return").show();
   });
@@ -39,5 +38,8 @@ $(document).ready(function () {
     $("#return").hide();
     $("#checkoutButton").hide();
     $(".clearOrders").remove();
+  });
+  $("#checkoutButton").click(function () {
+    $("#formCart").toggle(".is-hidden");
   });
 });
