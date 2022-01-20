@@ -30,5 +30,6 @@ $(document).ready(function () {
         "</td></tr>"
     );
     $(".test").append(cruTypes);
+    $("#checkoutButton").show();
   });
 });
