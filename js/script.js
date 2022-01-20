@@ -21,7 +21,7 @@ $(document).ready(function () {
     var pizzaSizes = $("#pizzaSizes option:selected").val();
     var toppings = $("#Mushrooms").is(":checked");
     $("table tbody").append(
-      "<tr><td>" +
+      "<tr class = 'clearOrders'><td>" +
         cruTypes +
         "</td><td>" +
         pizzaSizes +
@@ -38,5 +38,6 @@ $(document).ready(function () {
     $("#formCart").show();
     $("#return").hide();
     $("#checkoutButton").hide();
+    $(".clearOrders").remove();
   });
 });
