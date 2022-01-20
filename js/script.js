@@ -32,8 +32,11 @@ $(document).ready(function () {
     $(".test").append(cruTypes);
     $("#formCart").toggle(".is-hidden");
     $("#checkoutButton").show();
+    $("#return").show();
   });
   $("#return").click(function () {
     $("#formCart").show();
+    $("#return").hide();
+    $("#checkoutButton").hide();
   });
 });
