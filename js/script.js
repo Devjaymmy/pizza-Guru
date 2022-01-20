@@ -15,7 +15,7 @@ $(document).ready(function () {
 });
 
 $(document).ready(function () {
-  $("button").click(function () {
+  $("#cart").click(function () {
     event.preventDefault();
     var cruTypes = $("#cru-types option:selected").val();
     var pizzaSizes = $("#pizzaSizes option:selected").val();
@@ -30,6 +30,10 @@ $(document).ready(function () {
         "</td></tr>"
     );
     $(".test").append(cruTypes);
+    $("#formCart").toggle(".is-hidden");
     $("#checkoutButton").show();
+  });
+  $("#return").click(function () {
+    $("#formCart").show();
   });
 });

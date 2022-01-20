@@ -269,8 +269,12 @@ td {
   text-align: center;
 }
 
-#checkoutButton .is-active {
-  margin: 3rem 2rem;
+#formCart .is-hidden {
+  display: none;
+}
+
+#return {
+  margin: 5rem 2rem;
   background: #ee0979;
   width: 10rem;
   height: 2rem;
